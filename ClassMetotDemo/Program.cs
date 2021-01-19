@@ -33,6 +33,10 @@ namespace ClassMetotDemo
             customerManager.Add(customer3); //customer3 eklendi.
 
             customerManager.ShowAll(customers); //eklenen müşteriler listelendi (customer1, customer2 ve customer3 listelenir).
+
+            customerManager.Delete(customer1); //customer1 silindi ve ekrana ismi yazıldı.
+
+            customerManager.ShowAll(customers); //eklenen müşteriler listelendi (customer2 ve customer3 listelenir).
         }
     }
 }
